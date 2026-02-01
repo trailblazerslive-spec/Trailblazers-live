@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Trailblazers Live | Merch</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #0e0e0e;
+      color: #f5f5f5;
+      line-height: 1.6;
+    }
+
+    a {
+      color: #f5c16c;
+      text-decoration: none;
+    }
+
+    header {
+      background: #121212;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #222;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 1.5rem;
+      letter-spacing: 1px;
+    }
+
+    nav a {
+      margin-left: 20px;
+      font-weight: bold;
+    }
+
+    .hero {
+      padding: 90px 20px;
+      text-align: center;
+      background: linear-gradient(180deg, #121212, #0e0e0e);
+    }
+
+    .hero h2 {
+      font-size: 2.6rem;
+      margin-bottom: 15px;
+    }
+
+    .hero p {
+      max-width: 750px;
+      margin: auto;
+      font-size: 1.15rem;
+      color: #cccccc;
+    }
+
+    section {
+      padding: 80px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    section h3 {
+      text-align: center;
+      font-size: 2rem;
+      margin-bottom: 25px;
+    }
+
+    .mission {
+      text-align: center;
+      max-width: 850px;
+      margin: auto;
+      color: #bbbbbb;
+    }
+
+    .embed-box {
+      margin-top: 50px;
+      padding: 40px;
+      background: #151515;
+      border: 1px solid #222;
+      border-radius: 14px;
+      text-align: center;
+    }
+
+    .embed-box p {
+      color: #999;
+      margin-bottom: 20px;
+    }
+
+    footer {
+      background: #121212;
+      padding: 40px 20px;
+      text-align: center;
+      border-top: 1px solid #222;
+      color: #888;
+    }
+
+    footer p {
+      margin: 8px 0;
+    }
+
+    @media (max-width: 600px) {
+      header {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      nav {
+        margin-top: 10px;
+      }
+
+      nav a {
+        margin: 0 10px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <h1>Trailblazers Live</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="episodes.html">Episodes</a>
+      <a href="merch.html">Merch</a>
+      <a href="about.html">About</a>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <div class="hero">
+    <h2>Official Trailblazers Live Merch</h2>
+    <p>
+      Faith isn’t meant to be hidden. Wear the message. Represent truth.
+      Every purchase helps fuel the mission of Trailblazers Live.
+    </p>
+  </div>
+
+  <!-- WHY MERCH -->
+  <section>
+    <h3>Why Your Support Matters</h3>
+    <p class="mission">
+      Trailblazers Live merchandise isn’t just apparel — it’s a statement.
+      Your support allows us to continue creating bold, uncompromising content
+      that points people back to Christ in a culture drifting from truth.
+    </p>
+  </section>
+
+  <!-- FOURTHWALL EMBED -->
+  <section>
+    <h3>Shop the Collection</h3>
+
+    <div class="embed-box">
+      <p>
+        👇 Our official merch store lives right here.
+        Secure checkout. Worldwide shipping.
+      </p>
+
+      <!-- 🔥 FOURTHWALL STORE EMBED GOES BELOW 🔥 -->
+      <!-- Replace the placeholder iframe with your real Fourthwall embed code -->
+
+      <!-- EXAMPLE PLACEHOLDER -->
+      <iframe
+        src="https://fourthwall.com/"
+        width="100%"
+        height="800"
+        style="border:none; border-radius:12px;"
+        loading="lazy"
+        title="Trailblazers Live Merch Store">
+      </iframe>
+
+      <!-- 🔥 END FOURTHWALL EMBED 🔥 -->
+
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2026 Trailblazers Live Podcast</p>
+    <p>Faith • Truth • Culture</p>
+  </footer>
+
+</body>
+</html>
