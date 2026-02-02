@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Trailblazers Live | Listen</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #0e0e0e;
+      color: #f5f5f5;
+      line-height: 1.6;
+    }
+
+    a { color: inherit; text-decoration: none; }
+
+    header {
+      background: #121212;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #222;
+    }
+
+    header h1 { margin: 0; font-size: 1.5rem; letter-spacing: 1px; }
+
+    nav a {
+      margin-left: 20px;
+      font-weight: bold;
+      color: #f5c16c;
+    }
+
+    .wrap {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 70px 20px;
+      text-align: center;
+    }
+
+    .wrap h2 { font-size: 2.4rem; margin-bottom: 10px; }
+    .wrap p { color: #cfcfcf; max-width: 720px; margin: 0 auto 35px; }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+      gap: 18px;
+      margin-top: 25px;
+    }
+
+    .card {
+      background: #151515;
+      border: 1px solid #222;
+      border-radius: 14px;
+      padding: 22px;
+      transition: transform .15s ease, border-color .15s ease;
+      text-align: left;
+    }
+
+    .card:hover {
+      transform: translateY(-2px);
+      border-color: #f5c16c;
+    }
+
+    .badge {
+      display: inline-block;
+      font-size: .8rem;
+      letter-spacing: .04em;
+      color: #000;
+      background: #f5c16c;
+      padding: 6px 10px;
+      border-radius: 999px;
+      font-weight: bold;
+      margin-bottom: 12px;
+    }
+
+    .card h3 { margin: 0 0 8px; }
+    .card p { margin: 0; color: #bdbdbd; }
+
+    .note {
+      margin-top: 35px;
+      color: #9c9c9c;
+      font-size: .95rem;
+    }
+
+    footer {
+      background: #121212;
+      padding: 40px 20px;
+      text-align: center;
+      border-top: 1px solid #222;
+      color: #888;
+    }
+
+    @media (max-width: 600px) {
+      header { flex-direction: column; text-align: center; }
+      nav { margin-top: 10px; }
+      nav a { margin: 0 10px; }
+      .wrap { padding: 55px 18px; }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Trailblazers Live</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="episodes.html">Episodes</a>
+      <a href="merch.html">Merch</a>
+      <a href="about.html">About</a>
+    </nav>
+  </header>
+
+  <main class="wrap">
+    <h2>Listen & Watch</h2>
+    <p>
+      Choose your platform. Subscribe, share, and stay connected with Trailblazers Live.
+    </p>
+
+    <div class="grid">
+      <a class="card" href="PASTE_SPOTIFY_LINK_HERE" target="_blank" rel="noopener">
+        <span class="badge">Spotify</span>
+        <h3>Listen on Spotify</h3>
+        <p>Follow the show and stream the latest episodes.</p>
+      </a>
+
+      <a class="card" href="PASTE_APPLE_PODCASTS_LINK_HERE" target="_blank" rel="noopener">
+        <span class="badge">Apple Podcasts</span>
+        <h3>Listen on Apple Podcasts</h3>
+        <p>Subscribe and get new episodes automatically.</p>
+      </a>
+
+      <a class="card" href="PASTE_YOUTUBE_LINK_HERE" target="_blank" rel="noopener">
+        <span class="badge">YouTube</span>
+        <h3>Watch on YouTube</h3>
+        <p>Watch full episodes, clips, and livestreams.</p>
+      </a>
+    </div>
+
+    <p class="note">
+      Tip: If you don’t have a streaming app installed, your browser will still open the show.
+    </p>
+  </main>
+
+  <footer>
+    <p>© 2026 Trailblazers Live Podcast</p>
+    <p>Faith • Truth • Culture</p>
+  </footer>
+</body>
+</html>
